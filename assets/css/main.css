@@ -1660,10 +1660,18 @@ input, select, textarea {
 			opacity: 0;
 		}
 
+		/* resume embed */
 		.embed-resume {
 			width: 39vw;
 			height: 30vw;
 			display: flex;
 			justify-content: center;
 			margin-top: 10px;
+		}
+
+		@media screen and (max-width: 767px) {
+			.embed-resume {
+				width: 100%;
+				height: auto;
+			}
 		}
